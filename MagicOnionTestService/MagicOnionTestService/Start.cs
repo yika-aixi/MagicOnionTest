@@ -20,7 +20,6 @@ namespace MagicOnionTestService
                 Services = { service },
                 Ports = { new ServerPort("localhost", 12345, ServerCredentials.Insecure) }
             };
-
             // MagicOnion起動
             server.Start();
             Console.WriteLine("启动完成...");
